@@ -10,6 +10,39 @@ namespace TI46ProjetosConsole
     {
         static void Main(string[] args)
         {
+            // programaMedia();
+
+            //exercicio1();
+
+            exercicio2();
+
+          
+
+
+
+
+
+        }
+
+        private static void exercicio2()
+        {
+            //aqui fica o exercício chamado.
+
+        }
+
+        private static void exercicio1()
+        {
+            //  Exercício 1: Declaração de Variáveis
+            //  Declarar três variáveis de tipos
+            //  diferentes(inteiro, real e caractere) e atributos
+
+            Console.WriteLine("exercício 1");
+            Console.ReadKey();  
+
+        }
+
+        private static void programaMedia()
+        {
             decimal n1, n2, n3, n4, result;
             string nome;
             Console.WriteLine("Digite seu nome: \n");
@@ -23,8 +56,9 @@ namespace TI46ProjetosConsole
             Console.WriteLine("Resultado: \n");
             result = (n1 + n2 + n3 + n4) / 4;
 
-            Console.WriteLine("O aluno " + nome + "teve a média de: " + result);
-        
+            Console.WriteLine("O aluno " + nome + " teve a média de: " + result);
+
+            Console.ReadKey();
         }
     }
 }
